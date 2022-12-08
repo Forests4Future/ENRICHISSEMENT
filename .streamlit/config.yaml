@@ -1,0 +1,17 @@
+credentials:
+  usernames:
+    etuo:
+      email: evantuo@gmail.com
+      name: Evan Tuo
+      password: $2b$12$5NxjpYviN1Vw6SQDUZzoluOOA0csv2OqTI/FjVeSsaCUg.6srPKwO # To be replaced with hashed password
+    ydecleire:
+      email: yannecdecleire@gmail.com
+      name: Yannec Decleire
+      password: $2b$12$18kCQVEao8KZS8Tv0BlAw.aKDox6vEd69z1FOZqEBm5jbZE6EluL2 # To be replaced with hashed password
+cookie:
+  expiry_days: 30
+  key: some_signature_key
+  name: some_cookie_name
+preauthorized:
+  emails:
+  - evantuo@gmail.com
