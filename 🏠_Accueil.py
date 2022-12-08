@@ -103,7 +103,7 @@ def ajouterPoint(genre,infoPoint,color,idJachere=""):
             arbreJA=arbresJachereSelec(ArbresJacheres,JachereSelectionnee)
             uniqueJA=unique(arbreJA)
             st.write(card(uniqueJA),'espèces dans la jachere')
-            st.write(len(AinterB(uniqueJA,arbresFP)), 'espèces communes au 2 biotopes')
+            st.write(len(AinterB(uniqueJA,arbresFP)), 'espèces communes aux 2 biotopes')
             commun=AinterB(uniqueJA,arbresFP)
             st.write(AinterB(uniqueJA,arbresFP))
             soren=sorensen(uniqueJA,uniqueFP)
