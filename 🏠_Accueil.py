@@ -67,7 +67,7 @@ def condition(P,T,R):
     else: 
         T=0
     if R < 100:
-        R= R
+        R= 100-R
     else: 
         R=0
     return [P,T,R]
