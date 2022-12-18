@@ -113,7 +113,7 @@ def ajouterPoint(genre,infoPoint,color,idJachere=""):
             df=pd.read_csv("data_especes_sodefor.csv",sep=';')
             espece_sodefor=df.noms_scient
             dansForetEtSodefor=AinterB(list(espece_sodefor),dansForetPasDansJachere)
-            st.subheader("Liste des espèces de la forêt proche, absents de la jachère, croisée à celle de la SODEFOR")
+            st.subheader("Liste des espèces de la forêt proche, absentes de la jachère, croisée à celle de la SODEFOR")
             st.write(dansForetEtSodefor)
             densiteDesSeedlings=DensiteSeedlings(ArbresJacheres,JachereSelectionnee)
             st.write("Densité des plantules:",int(densiteDesSeedlings))
